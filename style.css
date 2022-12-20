@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #4fb3d4;
+    background-image: url(./assets/asset\ 32.png);
+    background-size: 50%;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    padding: 13px;
+    width: 100;
+    font-weight: bold;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+
+    padding: 0 50px;
+    /* border: 2px solid; */
+    box-sizing: border-box;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.left-side img {
+    width: 168px;
+
+}
+
+.right-side {
+    padding-right: 70px;
+}
+
+.right-side ul {
+    display: flex;
+    gap: 40px;
+
+
+}
+
+.right-side li {
+    list-style: none;
+}
+
+.right-side a {
+    text-decoration: none;
+}
+
+.nav-list {
+    font-weight: 20px;
+    color: #333333;
+    font-size: 17px;
+    font-family: "Averta PE", sans-serif;
+    transition: 0.2s ease-out;
+
+}
+
+.nav-list:hover {
+    color: #0986e5;
+}
+
+.signin {
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.signup {
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0986e5;
+    color: #ffffff;
+
+}
+
+.signup:hover {
+    color: #ffffff;
+    background-color: #0061ad;
+
+}
+
+.body {
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.body_left_side {
+    width: 100%;
+    margin: auto;
+}
+
+.body_left_side h1 {
+    display: flex;
+    color: #183b56;
+    font-size: 48px;
+    padding: 10px 0;
+}
+
+.body_left_side p {
+    color: #577592;
+    font-size: 20px;
+    padding: 10px 0;
+    FONT-FAMILY:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.body_left_side button {
+    background-color: #2294ed;
+    color: #ffffff;
+    border: 1px solid#2294ed;
+    border-radius: 5px;
+    font-family: "Averta PE", sans-serif;
+    padding: 16px 22px;
+    text-align: center;
+    width: 149px;
+    height: 52px;
+    transition: 0.2s ease-out;
+
+}
+
+.body_left_side button:hover {
+
+    background-color: #0061ad;
+    cursor: pointer;
+}
+
+.body_right_side img {
+    width: 600px;
+
+}
+
+.companies {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.companies h4 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.companies_logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.feauters {
+    display: block;
+    padding-top: 50px;
+    background-image: url(./assets/asset\ 34.svg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.btn{
+    margin: 20px;
+}
+
+.feauters button {
+    display: flex;
+    border: 0.5px solid #2294ed;
+    border-radius: 5px;
+    background-color: transparent;
+    margin: auto;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.feauters button:hover {
+    color: #2294ed;
+    border: 2px solid #2294ed;
+}
+
+.feauters img {
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.subf_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.subf {
+    width: 300px;
+    height: 303px;
+    padding: 0 20px;
+    margin: 20PX 0;
+}
+
+.subf img {
+    /* display: flex; */
+    padding: 20px 20px;
+}
+
+.subf h4 {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.subf .text {
+    font-size: 20px;
+    color: #577592;
+    padding-bottom: 20px;
+}
+
+.subf button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 155px;
+    height: 44px;
+    color: #183b56;
+    border: 1px solid #2294ed;
+    transition: 0.2s ease-out;
+}
+
+.subf button:hover {
+    color: #2294ed;
+    border: 2px solid #2294ed;
+}
+
+/* .validation 0 */
+
+
+.validation {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.val_right_side {
+    margin: auto;
+    padding: 0 20px;
+}
+
+.pretext {
+    margin: 20px 0;
+    line-height: 18px;
+    color: #183b56;
+    font-size: 18px;
+    font-family: "Averta PE", sans-serif;
+}
+
+.val_right_side h3 {
+    margin: 20px 0;
+
+    color: #183b56;
+    font-size: 32px;
+    font-family: "Averta PE", sans-serif;
+
+}
+
+.maintext {
+    color: #577592;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UISymbol";
+
+}
+
+.val_right_side img {
+    /* border: 2px solid; */
+    margin-top: 20px;
+    width: 105px;
+    height: 30px;
+}
+
+.testimonial {
+    background-image: url(./assets/asset\ 35.svg);
+    background-repeat: no-repeat;
+    color: #183b56;
+    font-family: "Averta PE", sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 2px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.nick {
+    display: flex;
+    /* border: 2px solid; */
+    margin: 20px 0;
+
+}
+
+.nick img {
+    /* border: 2px solid; */
+    margin: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.pname {
+    color: #183b56;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pname p {
+    color: #183b56;
+    /* padding-left: 10px; */
+    font-size: 18px;
+    font-weight: 400;
+    /* font-weight: 600; */
+}
+
+/* .validation 1 */
+
+
+
+.validation_1 {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.val_left_side_1 h3 {
+    margin: 20px 0;
+
+    color: #183b56;
+    font-size: 32px;
+    font-family: "Averta PE", sans-serif;
+
+}
+
+.val_left_side_1 img {
+    margin-top: 20px;
+    width: 75px;
+    height: 30px;
+}
+
+.nick_1 {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.nick_1 img {
+    width: 48px;
+    height: 48px;
+
+    margin: 0;
+}
+
+.val_right_side_1 {
+    padding-left: 20px;
+}
+
+.secondheading {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.secondheading h2 {
+    font-size: 40px;
+    margin: 10px 0;
+    color: #183b56;
+}
+
+.secondheading button {
+    color: #183b56;
+    background-color: transparent;
+    padding: 12px 24px;
+    margin: 10px 0;
+    border: 1px solid #b9cde4;
+    transition: 0.2s ease-out;
+    border-radius: 5px;
+}
+
+.secondheading button:hover {
+    color: #2294ed;
+    border: 1px solid #2294ed;
+    cursor: pointer;
+}
+
+.secondheading img {
+    /* padding-top: 2px; */
+    padding-left: 2px;
+
+}
+
+.cards_container {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card_1 {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%), url(./assets/asset\ 36.jpeg );
+    width: 278px;
+    height: 333px;
+    background-size: 100%;
+    position: relative;
+    transition: 0.2s ease-out;
+}
+
+.card_1:hover {
+    -webkit-box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+    box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+}
+.card_2:hover {
+    -webkit-box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+    box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+}
+.card_3:hover {
+    -webkit-box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+    box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+}
+.card_4:hover {
+    -webkit-box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+    box-shadow: -1px 10px 25px 4px rgba(0, 0, 0, 0.71);
+}
+
+.card_2 {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%), url(./assets/asset\ 37.jpeg );
+    background-blend-mode: darken;
+    width: 278px;
+    height: 333px;
+    background-size: 100%;
+    position: relative;
+}
+
+.card_3 {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%), url(./assets/asset\ 38.jpeg );
+    background-blend-mode: darken;
+    width: 278px;
+    height: 333px;
+    background-size: 100%;
+    position: relative;
+}
+
+.card_4 {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%), url(./assets/asset\ 39.jpeg );
+    background-blend-mode: darken;
+    width: 278px;
+    height: 333px;
+    background-size: 100%;
+    position: relative;
+}
+
+.card_1 h3 {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px;
+    font-size: 24px;
+    font-family: "Averta PE", sans-serif;
+}
+
+.card_2 h3 {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px;
+    font-size: 24px;
+    font-family: "Averta PE", sans-serif;
+}
+
+.card_3 h3 {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px;
+    font-size: 24px;
+    font-family: "Averta PE", sans-serif;
+}
+
+.card_4 h3 {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px;
+    font-size: 24px;
+    font-family: "Averta PE", sans-serif;
+}
+.panel_section{
+    margin: 30px 0;
+    padding-left: 40px;
+    background-color: #183b54;
+    display: flex;
+    width: 100;
+}
+.left_panel_section h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "Averta PE", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+.paneltext{
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #b9cde4;
+
+}
+.left_panel_section h4{
+    margin-left: -20px;
+    text-align: left;
+    border: 2px solid;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 30px;
+    font-family: "Averta PE", sans-serif;
+
+}
+.panel_hl{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.panel_hl li{
+    margin: 10px 0;
+    color: #b9cde4;
+    font-size: 16px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.right_panel_section{
+    padding: 20px 0;
+}
+.tessting{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin: 60px 0;
+}
+.tessting h2{
+    margin-top: 30px;
+    font-size: 40px;
+    color: #183b56;
+}
+.tessting p{
+    font-size: 20px;
+    color: #577592;
+    font-weight: 200;
+}
+.footer{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #ebf2fa;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px ;
+    padding: 50px ;
+}
+.ft{
+    margin: 50px 0;
+    text-align: left;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+    width: 250px;
+    height: 250px;
+}
+.ft h5{
+    font-size: 20px;    
+    font-family: 'Averta PE',sans-serif;
+    color: #183b56;
+    line-height: 1.2;
+    font-weight: 600;
+
+}
+.ft a{
+    text-decoration: none;
+    color: #577592;
+    font-size: 16px;
+    line-height: 30px;
+    /* font-weight: 600; */
+    font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    transition: 0.2s ease-out;
+
+}
+.ft a:hover{
+    color: #2294ed;
+}
+.sub_footer{
+    text-align: center;
+    background-color: #b9cde4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.privacy{
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid; */
+    margin: 20px 0;
+    padding: 0 30px;
+}
+.privacy a{
+    font-size: 16px;
+    color: #183b56;
+    font-family:"Averta PE", sans-serif;
+    text-decoration: none;
+    transition: 0.2s ease-out ;
+    
+}
+.privacy a:hover{
+    color: #2294ed;
+}
+.footer_logo{
+    display: flex;
+    gap: 20px;
+    padding: 0 100px;
+
+}
+.footer_logo img{
+    width: 20px;
+    height: 18px;
+}
+
